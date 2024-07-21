@@ -125,7 +125,7 @@ def movie(url):
     st.video(url)
 #=================[ 위 : 함수 부분 / 아래 : 작동 부분 ]===============
 
-st.logo("./img/logo.png", link=None, icon_image=None)
+st.logo("./img/logo.png", link="weail-mate.streamlit.app", icon_image=None)
 #웹 배포 후엔 배포된 링크 넣으면 됨
 if st.session_state.page == 'main':
     with st.container(height=100, border=0):
